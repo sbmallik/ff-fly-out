@@ -51,12 +51,3 @@ Then(/^The roadblock page displays$/) do
 		expect(page).to have_css('.firefly.full.trial-expired')
 	end
 end
-
-
-
-
-
-partner-inbetween-content partner-placement size-s
-ad-slot-7103-ny-rochester-C1070-transition-news-359
-
-
