@@ -29,6 +29,9 @@ Then(/^I should see the metered icon$/) do
 	while page.first('.util-bar-btn-firefly').nil? do
 		step %{I click the right navigation arrow}
 		step %{I should see the asset page}
+		unless first("iframe[name='dontmiss']").nil?
+			break
+		end
 	end
 end	
 

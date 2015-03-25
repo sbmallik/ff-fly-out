@@ -93,7 +93,6 @@ Scenario: Check for the fly-out if the asset is metered
 		And I should see the metered icon
 	When I click the metered icon
 	Then The text "THIS IS YOUR LAST ARTICLE!" displays in the fly-out
-#	Then I should see the firefly text
 
 	When I click the right navigation arrow
 	Then I should see the asset page
